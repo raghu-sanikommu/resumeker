@@ -1,0 +1,55 @@
+/***************************************************************
+Resume Form
+***************************************************************/
+body {
+	background: #1c1c21;
+}
+
+.formarea {
+	width: 80%;
+	margin: auto;
+}
+
+fieldset {
+	background: #1c1c2c;
+	color: #fff;
+	border-radius: 20px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: calibri;
+}
+
+fieldset input {
+	margin-right: 25px;
+	font-size: 20px;
+	font-family: calibri;
+	padding: 5px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	min-width: 200px;
+}
+
+fieldset textarea {
+	width: 60%;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: calibri;
+}
+
+fieldset h3 {
+	border-left: 2px solid skyblue;
+	padding-left: 8px;
+}
+
+/*****************************************************************
+Media Tags
+*****************************************************************/
+@media screen and (max-width: 700px) {
+	fieldset textarea {
+		width: 80%;
+	}
+
+	fieldset input {
+		width: 80%;
+	}
+}
