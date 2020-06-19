@@ -13,7 +13,7 @@ body {
 
 .backlit {
 	min-height: 40px;
-	background: #1c1c21;
+	background: #1c1c1c;
 	margin-top: -5px;
 }
 
@@ -495,5 +495,6 @@ Media Tags
 	******************************/
 	footer p {
 		font-size: 12px;
-	}	
+	}
+	
 }
