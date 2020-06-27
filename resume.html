@@ -16,7 +16,8 @@
 			<nav class="nav container">
 				<ul>
 					<li> <a href="index.html"> Home </a> </li>
-					<li> <a href="resume.html"> Resume </a> </li>
+					<li> <a href="resume.html" style="color: coral; border-bottom: 
+					1px dotted springgreen; padding-bottom: 3px;"> Resume </a> </li>
 					<li> <a href="about.html"> About </a> </li>
 					<li> <a href="contact.html"> Contact </a> </li>
 				</ul>
@@ -58,7 +59,7 @@
 
 				<fieldset>
 					<h3> Career Objective <span class="star" style="color: red;">*</span> </h3>
-					<textarea rows="7"> </textarea>
+					<textarea rows="7" required> </textarea>
 				</fieldset>
 
 				<fieldset>
@@ -66,15 +67,15 @@
 					<label> University / College <span class="star" style="color: red;">*</span>: </label>
 					<input type="text" name="University" placeholder="University" required>
 					<label> Location <span class="star" style="color: red;">*</span>:</label>
-					<input type="text" name="Uni-Location" placeholder="Location"> <br>
+					<input type="text" name="Uni-Location" placeholder="Location" required> <br>
 					<label> Course <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Uni-Course" placeholder="B.Tech / M.Tech ... ">
+					<input type="text" name="Uni-Course" placeholder="B.Tech / M.Tech ..." required>
 					<label> Branch <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Uni-Branch" placeholder="Branch"> <br>
+					<input type="text" name="Uni-Branch" placeholder="Branch" required> <br>
 					<label> CGPA / Percentage <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Uni-CGPA" placeholder="CGPA / Percentage">
+					<input type="text" name="Uni-CGPA" placeholder="CGPA / Percentage" required>
 					<label> Duration <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Uni-Dur" placeholder="mm/yyyy - mm/yyyy">
+					<input type="text" name="Uni-Dur" placeholder="mm/yyyy - mm/yyyy" required>
 				</fieldset>
 
 				<fieldset>
@@ -82,15 +83,15 @@
 					<label> College <span class="star" style="color: red;">*</span>: </label>
 					<input type="text" name="College" placeholder="College" required>
 					<label> Location <span class="star" style="color: red;">*</span>:</label>
-					<input type="text" name="Col-Location" placeholder="Location"> <br>
+					<input type="text" name="Col-Location" placeholder="Location" required> <br>
 					<label> Course <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Col-Course" placeholder="MPC / BiPC ... ">
+					<input type="text" name="Col-Course" placeholder="MPC / BiPC ..." required>
 					<label> Board <span class="star" style="color: red;">*</span>: </label>
 					<input type="text" name="Col-Board" placeholder="State / Central"> <br>
 					<label> CGPA / Percentage <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Col-CGPA" placeholder="CGPA / Percentage">
+					<input type="text" name="Col-CGPA" placeholder="CGPA / Percentage" required>
 					<label> Duration <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="Col-Dur" placeholder="mm/yyyy - mm/yyyy">
+					<input type="text" name="Col-Dur" placeholder="mm/yyyy - mm/yyyy" required>
 				</fieldset>
 
 				<fieldset>
@@ -98,22 +99,22 @@
 					<label> School <span class="star" style="color: red;">*</span>: </label>
 					<input type="text" name="School" placeholder="School" required>
 					<label> Location <span class="star" style="color: red;">*</span>:</label>
-					<input type="text" name="School-Location" placeholder="Location"> <br>
+					<input type="text" name="School-Location" placeholder="Location" required> <br>
 					<label> Board <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="School-Board" placeholder="State / Central">
+					<input type="text" name="School-Board" placeholder="State / Central" required>
 					<label> CGPA / Percentage <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="School-CGPA" placeholder="CGPA / Percentage"> <br>
+					<input type="text" name="School-CGPA" placeholder="CGPA / Percentage" required> <br>
 					<label> Duration <span class="star" style="color: red;">*</span>: </label>
-					<input type="text" name="School-Dur" placeholder="mm/yyyy - mm/yyyy">
+					<input type="text" name="School-Dur" placeholder="mm/yyyy - mm/yyyy" required>
 				</fieldset>
 
 				<fieldset>
 					<p>
 						<h3> Skills </h3>
 						<label> Skill-1 <span class="star" style="color: red;">*</span>: </label>
-						<input type="text" name="Skill-1" placeholder="C / Java etc; " required>
+						<input type="text" name="Skill-1" placeholder="C / Java etc;" required>
 						<label> Level <span class="star" style="color: red;">*</span>: </label>
-						<select>
+						<select name="Level-1" required>
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -121,9 +122,9 @@
 							<option>5</option>
 						</select> <br>
 						<label> Skill-2  : </label>
-						<input type="text" name="Skill-2" placeholder="C / Java etc;" required>
+						<input type="text" name="Skill-2" placeholder="C / Java etc;">
 						<label> Level : </label>
-						<select>
+						<select name="Level-2">
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -133,7 +134,7 @@
 						<label> Skill-3  : </label>
 						<input type="text" name="Skill-3" placeholder="C / Java etc;">
 						<label> Level : </label>
-						<select>
+						<select name="Level-3">
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -143,7 +144,7 @@
 						<label> Skill-4  :</label>
 						<input type="text" name="Skill-4" placeholder="C / Java etc;">
 						<label> Level : </label>
-						<select>
+						<select name="Level-4">
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -231,9 +232,9 @@
 						<label> Fathers Name <span class="star" style="color: red;">*</span>:</label> 
 						<input type="text" name="Fathers-Name" placeholder="Fathers-Name" required> <br>
 						<label> Date of Birth <span class="star" style="color: red;">*</span>: </label>
-						<input type="date" name="DOB">
+						<input type="date" name="DOB" required>
 						<label> Languages Known <span class="star" style="color: red;">*</span>:</label>
-						<input type="text" name="Languages" placeholder="Languages">
+						<input type="text" name="Languages" placeholder="Languages" required>
 					</p>
 				</fieldset>
 
