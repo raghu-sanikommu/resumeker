@@ -89,7 +89,6 @@ Main Text
 	font-family: Rock Salt;
 	font-size: 50px;
 	text-align: center;
-	transition-delay: 3s;
 	transition: font-size 2s ease;
 }
 
@@ -128,7 +127,7 @@ Steps
 	font-size: 25px;
 	padding-top: 20px;
 	padding-left: 20px;	
-	border-left: 3px solid white;
+	border-left: 3px solid skyblue;
 }
 	
 .steps li {
