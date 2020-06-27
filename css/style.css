@@ -469,7 +469,7 @@ Media Tags
 
 	.maintext h3 {
 		font-size: 18px;
-		margin-top: 20px;
+		margin-top: 25px;
 	}
 
 	/******************************
@@ -501,6 +501,10 @@ Media Tags
 	/******************************
 	Templates and Button
 	******************************/
+	.templates h3 {
+		font-size: 20px;
+	}
+
 	.templates ul {
 		padding: 0px;
 	}
