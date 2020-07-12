@@ -103,6 +103,12 @@ Main Text
 	color: skyblue;
 }
 
+.candy:hover {
+	animation-name: disco;
+	animation-iteration-count: infinite;
+	animation-duration: 0.5s;
+}
+
 .maintext h3 {
 	color: #fff;
 	font-family: Nunito;
@@ -270,6 +276,48 @@ Templates and Button
 }
 .btn:hover {
 	background: #1c1c21;
+}
+
+/***************************************************************
+Resume Form
+***************************************************************/
+body {
+	background: #1c1c21;
+}
+
+.formarea {
+	width: 80%;
+	margin: auto;
+}
+
+fieldset {
+	background: #1c1c2c;
+	color: #fff;
+	border-radius: 10px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: calibri;
+}
+
+fieldset input {
+	padding: 5px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: calibri;
+}
+
+fieldset textarea {
+	width: 60%;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: calibri;
+}
+
+fieldset h3 {
+	border-left: 2px solid skyblue;
+	padding-left: 8px;
 }
 
 /*********************************************************************
@@ -502,6 +550,7 @@ Media Tags
 	******************************/
 	.templates h3 {
 		font-size: 20px;
+		margin-top: 0px;
 	}
 
 	.templates ul {
@@ -509,12 +558,13 @@ Media Tags
 	}
 
 	.templates li {
-		width: 40%;
+		width: 43%;
+		padding: 5px;
 	}
 
 	.templates li img {
 		width: 100%;
-		border-radius: 10px;
+		border-radius: 5px;
 	}
 
 	.templates li p {
@@ -527,6 +577,31 @@ Media Tags
 		font-size: 15px;
 		margin-bottom: 20px;
 		margin-left: 30%;
+	}
+
+	/******************************
+	Resume Form
+	******************************/
+	.formarea {
+		width: 90%;
+	}
+
+	fieldset {
+		font-size: 17px;
+	}
+
+	fieldset textarea {
+		width: 80%;
+	}
+
+	fieldset input {
+		width: 80%;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	fieldset select {
+		margin-bottom: 25px;
 	}
 
 	/******************************
