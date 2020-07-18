@@ -59,6 +59,24 @@ body {
 	transition-duration: 1s;
 }
 
+.progress-area {
+	left: 0;
+	position: fixed;
+	height: 100%;
+}
+
+.progress-container {
+	background-color: #1c1c21;
+	height: 100%;
+	width: 3px;
+}
+
+.progress-bar {
+	background-color: skyblue;
+	height: 0%;
+	width: 3px;
+}
+
 /*********************************************************************
 Key Frames 
 *********************************************************************/
@@ -71,6 +89,18 @@ Key Frames
 	from { color: white; }
 	to { color: skyblue; }
 }
+
+@keyframes imgkick {
+	from { 
+		width: 2.5%;
+		opacity: 0;
+	}
+	to { 
+		width: 3%; 
+		opacity: 1;
+	}
+}
+
 /*********************************************************************
 Header 
 *********************************************************************/
@@ -271,7 +301,7 @@ Templates and Button
 
 .templates li img {
 	width: 290px;
-	transition: opacity 1s ease;
+	transition: transform 1s ease;
 }
 
 .templates li {
@@ -288,12 +318,13 @@ Templates and Button
 }
 
 .templates li img:hover {
-	opacity: 0.5;
+	transform: scale(1.3);
+	box-shadow: 15px 15px 100px 200px rgba(0, 0, 0, 0.5);
 }
 
 .btn {
 	color: white;
-	background: green;
+	background: #019031;
 	padding: 5px;
 	font-family: calibri;
 	font-size: 25px;
@@ -454,7 +485,8 @@ Contact
 	width: 3%;
 	margin-top: 5%;
 	margin-left: 16%;
-	transition: 1.5s ease;
+	animation: imgkick 2s;
+	transition: opacity 1s ease;
 }
 
 .contact p {
@@ -519,6 +551,14 @@ Media Tags
 
 	#mybtn i {
 		font-size: 15px;;
+	}
+	
+	.progress-container {
+		width: 2px;
+	}
+
+	.progress-bar {
+		width: 2px;
 	}
 
 	/******************************
@@ -638,6 +678,10 @@ Media Tags
 		width: 80%;
 		font-size: 16px;
 		margin-bottom: 15px;
+	}
+	
+	fieldset input[type= "file"] {
+		font-size: 12px;
 	}
 
 	fieldset select {

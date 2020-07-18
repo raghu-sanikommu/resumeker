@@ -3,6 +3,7 @@
 	<head>
 		<title> Resumeker | Resume </title>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="img/r2.png" rel="apple-touch-icon" type="png/image">
 		<link href="img/r2.png" rel="icon" type="png/image">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,12 @@
 
 	<body>
 		<header class="header">
+			<div class="progress-area">
+				<div class="progress-container">
+					<div class="progress-bar" id="my-bar">
+					</div>
+				</div>
+			</div>
 			<nav class="nav container">
 				<ul>
 					<li> <a href="index.html"> Home </a> </li>
@@ -35,6 +42,15 @@
 						<span class="star" style="color: red;">*</span> 
 					</h3>
 					<input type="text" name="Template" placeholder="Template Name" required>
+				</fieldset>
+
+				<fieldset>
+					<h3>
+						Image 
+						<i class="far fa-file-image" style="margin-left: 5px;"></i>
+					</h3>
+					<label> Attach image if applicable. </label> <br> <br>
+					<input type="file">
 				</fieldset>
 
 				<fieldset> 
@@ -276,18 +292,19 @@
 						<i class="fas fa-pen" style="margin-left: 5px;"></i>
 					</h3>
 					<p> Please provide any additional data to be added and don't forget to menction the <i>Section Name</i> to which it belongs to. </p>
-					<i> For Example : <br> Projects : additional project-1, additional-project-2 <br> Achievements : additional achievement-1, additional achievement-2 </i>  <br> <br>
+					<i> For Example : <br> Projects() => {additional project-1, additional-project-2} <br> Achievements() => {additional achievement-1, additional achievement-2} </i>  <br> <br>
 					<textarea name="Additional-Data" rows="10">  </textarea>
 				</fieldset>
 
 				<fieldset>
-					<h3> Tips 
-						<i class="far fa-lightbulb" style="margin-left: 5px;"></i>
+					<h3> 
+						<i class="far fa-lightbulb"> </i>
 					</h3>
-					<p> 
-						1. Don't let your Resume length cross more than one page (A4). <br> 
-						2. Minimize adding data irrelevant to the job you are seeking. <br>
-						3. Try holding up some stuff that isn't in your Resume to answer the question - <i>"Tell me something that isn't in your Resume",</i> and this helps in reducing content of your Resume which is our priority ... Voila!! <br>
+					<p>
+						1. Provide data according to the template selected to have impressive Resume. <br>
+						2. Don't let your Resume length cross more than one page (A4). <br> 
+						3. Minimize adding data irrelevant to the job you are seeking. <br>
+						4. Try holding up some stuff that isn't in your Resume to answer the question - <i>"Tell me something that isn't in your Resume",</i> and this helps in reducing content of your Resume which is our priority ... Voila!! <br>
 					</p>
 				</fieldset>
 
