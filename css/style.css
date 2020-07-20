@@ -92,11 +92,9 @@ Key Frames
 
 @keyframes imgkick {
 	from { 
-		width: 2.5%;
 		opacity: 0;
 	}
 	to { 
-		width: 3%; 
 		opacity: 1;
 	}
 }
@@ -281,6 +279,11 @@ Templates and Button
 	font-size: 25px;
 	margin: 0px;
 	padding-top: 30px;
+}
+
+.templates p {
+	font-family: Nunito;
+	color: white;
 }
 
 .templates h3 a {
@@ -486,7 +489,7 @@ Contact
 	margin-top: 5%;
 	margin-left: 16%;
 	animation: imgkick 2s;
-	transition: opacity 1s ease;
+	transition: opacity 1.5s ease;
 }
 
 .contact p {
