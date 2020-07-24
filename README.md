@@ -98,11 +98,7 @@ Lets now make our project a business class model by embedding automation feature
 * Add the image in _.png_ format to _**img**_ folder of this repository.
 * Open a code editor _(preferably VS code)_ and browse to _**index.html**_ file.
 * Scroll over to the `<section class=".templates">` code block.
-* Add following code snippet in `<ul>` by rewriting the `template-image-name` with your own template name given.
- - `<li>
-    <a href="img/template-image-name.png"><img src="img/template-image-name.png" alt="template"> </a>
-    <p>  template-image-name </p>
-   </li>`
+* Add a new `<li>` code snippet similar to one that already exists in `<ul>`, but make sure you put your own template name in `<a>`, `<img>` and `<p>` tags.
 * Save the template in _.doc_ and _.pdf_ formats in _**resume-templates**_ folder of the repository.
 
 
