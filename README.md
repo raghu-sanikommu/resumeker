@@ -95,11 +95,16 @@ Lets now make our project a business class model by embedding automation feature
 ### Adding New Resume Templates
 **Kudos** for moving a step ahead and making new Resume Templates. Lets walk through the process to get things done.
 
-* Add the image in _.png_ format to _**img**_ folder of this repository.
+* Add the image in _.png_ format to _**img**_ folder of the repository.
 * Open a code editor _(preferably VS code)_ and browse to _**index.html**_ file.
 * Scroll over to the `<section class=".templates">` code block.
 * Add a new `<li>` code snippet similar to one that already exists in `<ul>`, but make sure you put your own template name in `<a>`, `<img>` and `<p>` tags.
 * Save the template in _.doc_ and _.pdf_ formats in _**resume-templates**_ folder of the repository.
+* Open Git Bash in repository on right click and type in the following commands :
+  - `git add .`
+  - `git commit -m 'your-commit-name`
+  - `git push`
+* You are done! Netlify automatically pushes the changes onto your website.
 
 
 > Thanks for reading and **forks** if any are highly accepted.
