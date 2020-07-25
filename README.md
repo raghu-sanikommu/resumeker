@@ -14,7 +14,7 @@ Not many Engineers are good at working with MS Word to put their creativity in m
 ## Solution Found
 They can be helped by providing a platform with different Resume templates to choose from. Later, they must be filling out a form with all their details and these details can be accessed by developer in real-time, put them into Resume template chosen and mail them back.
 
-> It is estimated that, it would take around _5-7_ minutes for the developer to put on the data into Resume template _(Provided that the Resume templates are available before hand)_ and thus, this project is assumed to work well for little to low traffic.
+> It is estimated that, it would take around _5-7_ minutes for the developer to put on the data into Resume template _(Provided that the Resume template is available before hand)_ and thus, this project is assumed to work well for little to low traffic.
 >> _Developer can also move a step ahead and opt to receive / listen to his co-mates template design ideas and design them. These new templates can be simply pushed to the website by shooting few lines of code_.
 
 ### Designed and Developed Using
@@ -77,7 +77,7 @@ Once you have successfully cloned the repository, you are half way through and l
 
 > All Resume templates in _.doc_ and _.pdf_ formats are available in _**resume-templates**_ folder of this repository.
 
-Your website is now **live on web** which can be accessed by anyone in the **world** and time has arrived to get your hands dirty by taking data from users and put them back onto Resume Templates chosen by them. With no more delay lets quickly get that job done.
+Your website is now **live on web** which can be accessed by anyone in the **world** and time has arrived to get your hands dirty by taking data from users and putting them back onto Resume Templates chosen by them. With no more delay lets quickly get that job done.
 
 * Form submissions and data extraction here happens in real time. 
 * Once the user submits the form, all that data will be available in _'**Form Submissions**'_ section of your website on Netlify platform. _(Special Thanks to Netlify for their amazing features)_
@@ -97,12 +97,12 @@ Lets now make our project a business class model by embedding automation feature
 
 * Add the image in _.png_ format to _**img**_ folder of the repository.
 * Open a code editor _(preferably VS code)_ and browse to _**index.html**_ file.
-* Scroll over to the `<section class=".templates">` code block.
-* Add a new `<li>` code snippet similar to one that already exists in `<ul>`, but make sure you put your own template name in `<a>`, `<img>` and `<p>` tags.
+* Scroll over to the `<section class="templates">` code block.
+* Add a new `<li>` code snippet similar to one that already exists in `<ul>` and make sure that you are putting your own template name in `<a>`, `<img>` and `<p>` tags.
 * Save the template in _.doc_ and _.pdf_ formats in _**resume-templates**_ folder of the repository.
 * Open Git Bash in repository on right click and type in the following commands :
   - `git add .`
-  - `git commit -m 'your-commit-name`
+  - `git commit -m 'your-commit-name'`
   - `git push`
 * You are done! Netlify automatically pushes the changes onto your website.
 
@@ -113,4 +113,6 @@ Lets now make our project a business class model by embedding automation feature
 ***
 
 
-##### __Designed and Developed by__ [Raghu Sanikommu](https://raghu-sanikommu.netlify.app "Know More about Raghu Sanikommu")
+##### Designed and Developed by [Raghu Sanikommu](https://raghu-sanikommu.netlify.app "Know More about Raghu Sanikommu")
+
+##### Licensed under [MIT License](LICENSE)
