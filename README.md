@@ -107,7 +107,7 @@ Lets now make our project a business class model by embedding automation feature
 * You are done! Netlify automatically pushes the changes onto your website.
 
 
-> Thanks for reading and **forks** if any are highly accepted.
+> Thanks for reading and **forks** if any are welcomed.
 
 
 ***

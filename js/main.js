@@ -1,3 +1,13 @@
+/*********************************************************************
+
+Copyrights (c) 2020 Raghu Sanikommu
+raghureddy.sanikommu@gmail.com
+
+Licensed under MIT License
+
+*********************************************************************/
+
+
 let mybutton = document.getElementById("mybtn");
 
 
