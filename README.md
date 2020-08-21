@@ -42,6 +42,7 @@ Zapier
 2. [Netlify account](https://app.netlify.com "Create a Netlify account")
 3. [Zapier account](https://zapier.com "Create a Zapier account")
 4. [Git Bash Software](https://git-scm.com/downloads "Download Git Bash")
+5. [Visual Studio Code Software](https://code.visualstudio.com/download "Download VS code")
 
 Once you are up with all the prerequisites, you can jump in and clone the repository with no worries.
 
@@ -58,7 +59,7 @@ To make use of this project, it has to be cloned into your own GitHub repository
    - `git add .`
    - `git commit -m 'your-commit-name'`
    - Create your own repository in github.com
-   - `git remote add https://github.com/your-github-username/repo-name.git`
+   - `git remote add origin https://github.com/your-github-username/repo-name.git`
    - `git push -u origin master`
    - Refresh your repository in github.com
 
